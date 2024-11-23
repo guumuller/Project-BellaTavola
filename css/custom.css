@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+}
+
+nav img{
+    height: 90px;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+}
+
+.first-section{
+    padding: 50px 50px;
+    background-color: #8B4513;
+    color: #c7c7c7;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.introduction p{
+    text-align: justify;
+}
+
+.second-section{
+    padding: 50px 50px;
+}
+
+.title-local {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px; 
+    margin-bottom: 15px;
+}
+
+.title-local h1 {
+    margin: 0;
+    text-align: right;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.address img{
+    height: 350px;
+}
