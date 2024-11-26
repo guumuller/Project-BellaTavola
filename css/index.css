@@ -108,14 +108,38 @@ nav img{
     z-index: 2;
 }
 
+.section-fourth img{
+    height: 450px;
+    border-radius: 20px;
+}
+
+.comentary{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 footer{
     background-color: #8B4513;
+    color: #fff;
 }
 
 footer img{
     height: 90px;
 }
 
-.btns{
+.navbar-nav{
     gap: 10px;
+}
+
+@media (min-width: 768px) {
+    footer .navbar-nav  {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .comentary img {
+        max-height: 330px;
+    }
 }
