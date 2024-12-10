@@ -25,13 +25,32 @@ button{
     background: none;
 }
 
-footer{
-    background-color: #8B4513;
-    color: #fff;
+.logo-footer img{
+    width: 150px;
 }
 
-footer img{
-    height: 90px;
+footer p{
+    margin-top: -30px;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #8B4513;
+    color: #000;
+    height: 200px;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 150px
+}
+
+footer hr{
+    width: 90%;
+    margin: 0 auto;
+    opacity: .5;
+}
+
+.icon ul{
+    margin: 0;
 }
 
 .navbar-nav{
